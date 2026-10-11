@@ -1,0 +1,9 @@
+# 每条路由描述Platform.sh应该如何处理每条接收到的URL
+
+"https://{default}/":
+    type: upstream
+    upstream: "ll_project:http"
+
+"https://www.{default}/":
+    type: redirect
+    to: "https://{default}/"

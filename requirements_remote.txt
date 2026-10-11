@@ -1,0 +1,3 @@
+#线上部署所需
+gunicorn
+psycopg2
